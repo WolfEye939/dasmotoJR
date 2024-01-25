@@ -1,0 +1,3 @@
+/* Use for testing class visibility */
+:root {--test: 255, 0, 0; }
+/* {color: rgba(var(--test), 0.5);} */
