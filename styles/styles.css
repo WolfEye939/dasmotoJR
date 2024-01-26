@@ -1,3 +1,35 @@
+/*============================================*/
 /* Use for testing class visibility */
 :root {--test: 255, 0, 0; }
-/* {color: rgba(var(--test), 0.5);} */
+/* { color: rgba(var(--test), 0.5);} */
+/*============================================*/
+
+h1.page-title 
+{
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight:bold;
+    color: khaki;
+    text-align: center;
+    background-image: url(../img/pattern.jpeg);
+}
+
+p.head 
+{
+    font-family:Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+p.subhead {font-weight: bold; font-size: 24px;}
+span.price 
+{
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+
+p#brush { background-color: mediumspringgreen; }
+p#frames { background-color: lightcoral; }
+p#paint  { background-color: skyblue; }

@@ -6,16 +6,17 @@
     "configurations": [
         {
             "name": "open with edge",
-            "type": "msedge",
-            "request": "launch",
-            "file": "${workspaceFolder}/index.html"
+            "type": "msedge",                           // Tells vs-code to fetch this application (edge)...
+            "request": "launch",                        // The action it needs to perform (start)...
+            "file": "${workspaceFolder}/index.html"     // With THIS PAGE as the root
         },
 
         {
             "name": "open with chrome",
             "type": "chrome",
             "request": "launch",
-            "file": "${workspaceFolder}/index.html"
+            "file": "${workspaceFolder}/index.html",
+
         }
     ]
 }
